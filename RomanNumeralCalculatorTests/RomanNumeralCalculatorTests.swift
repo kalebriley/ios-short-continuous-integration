@@ -29,6 +29,7 @@ class RomanNumeralCalculatorTests: XCTestCase {
         XCTAssertEqual(toRoman(2), "II")
         XCTAssertEqual(toRoman(3), "III")
         XCTAssertEqual(toRoman(4), "IV")
+        XCTAssertEqual(toRoman(5), "V")
     }
     
     func testPerformanceExample() {
